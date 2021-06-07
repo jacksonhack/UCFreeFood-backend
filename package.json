@@ -12,5 +12,13 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonhack/UCFreeFood-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacksonhack/UCFreeFood-backend/issues"
+  },
+  "homepage": "https://github.com/jacksonhack/UCFreeFood-backend#readme"
 }
