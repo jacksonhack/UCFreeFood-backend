@@ -9,8 +9,9 @@ let app = express();
 
 // Import routes
 let apiRoutes = require("./api-routes");
-// Configure bodyparser to handle post requests
-app.use(express.urlencoded());
+// Configure bodyparser to handle post requests in json format
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 // Connect to Mongoose and set connection variable
 mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true});
